@@ -1,0 +1,30 @@
+category,parameter,UoM,description
+system,demand,MW,total system demand
+system,2ndResUP,MW,secondary reserve up
+system,2ndResDW,MW,secondary reserve down
+system,LoadFactor,pu,distribution Factors of Loads at different busses
+system,ENSCost,EUR/MWh,cost of energy non served 
+system,Sbase,MVA,Base S power
+renewable,wind,MW,wind production per bus and scenario
+thermalgen,MaxProd,MW,maximum output
+thermalgen,MinProd,MW,minimum output
+thermalgen,IniProd,MW,initial output > min load
+thermalgen,RampUp,MW/h,ramp up limit
+thermalgen,RampDw,MW/h,ramp down limit
+thermalgen,FuelCost,EUR/te,fuel cost
+thermalgen,SlopeVarCost,te/MWh,slope variable cost
+thermalgen,InterVarCost,te/h,intercept variable cost
+thermalgen,OMVarCost,EUR/MWh,operation and maintenance cost
+thermalgen,MinTU,h,minimun time up
+thermalgen,MinTD,h,minimun time down
+thermalgen,SDduration,h,shutdown duration time
+thermalgen,ShutdownCost,te,shutdown cost
+thermalgen,SUduration1,h,startup  duration time hot
+thermalgen,SUduration2,h,startup  duration time cold
+thermalgen,DownTtimeforSU1,h,minimun startup hot
+thermalgen,DownTtimeforSU2,h,minimun startup cold
+thermalgen,SUcost1,te,startup cost hot
+thermalgen,SUcost2,te,startup cost cold
+network,R,p.u.,branch i-j resistance
+network,X,p.u.,branch i-j reactance
+network,Pmax,MW,branch i-j capacity limit
